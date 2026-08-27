@@ -20,7 +20,9 @@ description: >-
 
 Once Plato Medical is connected to Dr.OZ, you can link Dr.OZ patients with their corresponding patient records in Plato and view their Plato medical records directly from the patient profile.
 
-📌 **Go to: Settings > Hospital Settings > Plato Medical Integration**
+📌 **Go to: Settings > Clinic Settings > Plato Medical Integration**
+
+<figure><img src="../.gitbook/assets/image (900).png" alt=""><figcaption></figcaption></figure>
 
 #### ① Enter the Integration Details
 
@@ -28,16 +30,11 @@ Enter the information required to connect your clinic's Plato Medical account.
 
 * **Database Name**: Enter the database name used by your clinic in Plato.
 * **API Key**: Enter the Bearer API Key generated in Plato.
-* **Default Calendar ID**: Enter the default Plato calendar ID to use.
-* **Default Location**: Enter the clinic location to use by default.
-* **Default Doctor Code**: Enter the doctor code to use by default.
+* **Default Calendar ID (Optional):** Enter the default Plato calendar ID, if applicable.
+* **Default Location (Optional):** Enter the default clinic location, if applicable.
+* **Default Doctor Code (Optional):** Enter the default doctor code, if applicable.
 
-> 💡 **Where can I find the API Key?**
->
-> In Plato, go to **System Setup > General Settings > API > Generate API Key** to generate an API Key.
-
-> 💡 Plato Medical settings may vary depending on your clinic's Plato configuration.\
-> Check your clinic's Plato settings to make sure you enter the correct **Database Name, Calendar ID, Location, and Doctor Code**.
+> 💡 Plato Medical settings may vary by clinic. Check your clinic's Plato configuration to ensure you enter the correct **Database Name, Calendar ID, Location, and Doctor Code.**
 
 #### ② Test the Connection
 
@@ -53,6 +50,6 @@ Once the connection test is successful, click **Save** to complete the setup.
 
 ### After the Integration Is Set Up
 
-Once Plato Medical is connected, go to **Patients > Patient Details > Plato Medical Records** to link a Dr.OZ patient with their corresponding Plato patient record and access their medical information.
+Once Plato Medical is connected, go to **Patients > Patient Details > Plato Medical Records** to link a Dr.OZ patient to their corresponding Plato patient record and view their medical records.
 
 For instructions on **finding and linking Plato patients, viewing medical records, refreshing Plato data, or unlinking a patient**, see the **Plato Medical Records** guide.
