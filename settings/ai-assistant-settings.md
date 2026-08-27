@@ -129,12 +129,12 @@ Turn on **AI Auto Response** to let AI respond according to the conditions you c
 
 <figure><img src="../.gitbook/assets/image (883).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="188">Setting</th><th>Description</th></tr></thead><tbody><tr><td><strong>Send After Approval</strong></td><td>AI prepares a reply and waits for a staff member to review and send it to the patient.</td></tr><tr><td><strong>Auto Reply</strong></td><td>AI sends the response directly to the patient without staff review.</td></tr></tbody></table>
+<table><thead><tr><th width="188">Setting</th><th>Description</th></tr></thead><tbody><tr><td><strong>Approve &#x26; Send</strong></td><td>AI prepares a reply and waits for a staff member to review and send it. Nothing is sent to the patient until a staff member approves the response.</td></tr><tr><td><strong>Auto Reply</strong></td><td>AI sends responses directly to patients without staff review.</td></tr></tbody></table>
 
 > ⚠️ **When using Auto Reply**
 >
 > Responses are sent directly to patients without staff review.\
-> If you are using Auto Response for the first time, we recommend starting with **Send After Approval** and reviewing AI responses before switching to **Auto Reply**.
+> If you are using Auto Response for the first time, we recommend starting with **Approve & Send** and reviewing AI responses before switching to **Auto Reply**.
 
 ***
 
@@ -143,7 +143,9 @@ Turn on **AI Auto Response** to let AI respond according to the conditions you c
 Set the name patients will see for the AI Assistant during conversations.
 
 * **Assistant Name:** Enter the name you want patients to see.
-* **Show Name:** Turn this on to display the assistant name with AI-generated responses.
+* **Introduce itself:** Turn this on to include the assistant name in the first AI-generated message of a conversation.
+
+<figure><img src="../.gitbook/assets/image (899).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -153,14 +155,12 @@ Choose the situations in which AI should respond to patient conversations.
 
 <figure><img src="../.gitbook/assets/image (885).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="247.5">Setting</th><th>Description</th></tr></thead><tbody><tr><td><strong>New Chats Only</strong></td><td>AI responds first to newly started conversations.</td></tr><tr><td><strong>When No Agent Is Available</strong></td><td>AI responds when no staff member is available to handle the conversation.</td></tr><tr><td><strong>New Chats + Outside Business Hours</strong></td><td>AI responds to new conversations and can also respond outside your configured business hours.</td></tr></tbody></table>
+<table><thead><tr><th width="262.75">Setting</th><th>Description</th></tr></thead><tbody><tr><td><strong>New chats only</strong></td><td>AI responds first to newly started conversations.</td></tr><tr><td><strong>Only when no one is available</strong></td><td>AI responds when no staff member is available to handle the conversation.</td></tr><tr><td><strong>New chats + after hours</strong></td><td>AI responds to new conversations and can also respond outside your configured business hours.</td></tr></tbody></table>
 
 You can also configure:
 
-* **Response Wait Time:** How long AI waits before responding, giving staff time to reply first.
-* **Maximum AI Replies per Chat:** Set the maximum number of consecutive AI responses in a conversation. Once the limit is reached, the conversation is handed off to a staff member.
-
-> 💡 Set a **Response Wait Time** to give staff a chance to respond before AI steps in.
+* **Wait before replying:** Set how long AI waits before responding, giving staff time to reply first.
+* **Max AI replies per chat:** Set the maximum number of consecutive AI responses before the conversation is handed off to a staff member.
 
 ***
 
@@ -168,7 +168,7 @@ You can also configure:
 
 Choose the types of information AI is allowed to provide directly to patients.
 
-You can allow topics such as **business hours, location and directions, services, pricing, payment methods, clinic policies, and general FAQs**.
+You can allow AI to answer topics such as **opening hours, location and access, services, pricing, payment methods, clinic policies, and general FAQs.**
 
 <figure><img src="../.gitbook/assets/image (886).png" alt=""><figcaption></figcaption></figure>
 
@@ -180,16 +180,16 @@ You can allow topics such as **business hours, location and directions, services
 
 Set the conditions under which AI should stop responding and hand the conversation over to a staff member.
 
-You can configure a handoff when:
+You can configure AI to hand the conversation over to a staff member when:
 
-* A patient asks about **medical symptoms, diagnosis, treatment, or medication**
-* A patient expresses a **complaint or negative sentiment**
-* A patient asks to **speak with a staff member or agent**
-* AI does not have enough confidence to answer based on the Knowledge Base
+* The message involves **clinical topics**, such as symptoms, diagnosis, treatment, or medication
+* The patient appears **unhappy or frustrated**
+* The patient asks to **speak with a staff member**
+* AI is **not confident that the Knowledge Base contains enough information to answer**
 
 #### Confidence Threshold
 
-Set a confidence threshold so that uncertain AI responses are handled by staff instead.
+Set the **Confidence Threshold** to control when uncertain AI responses should be handed off to staff. If AI confidence falls below the selected threshold, AI will not respond and the conversation will be handed over to a staff member.
 
 If AI confidence is lower than the configured threshold, AI will not respond and the conversation will be handed off to a staff member.
 
@@ -199,9 +199,9 @@ If AI confidence is lower than the configured threshold, AI will not respond and
 
 ### ⑥ Priority Detection
 
-Turn on **Urgent Chat Indicator** to let AI analyze conversations and mark messages that may require faster attention.
+Turn on **Flag urgent chats** to let AI identify conversations that may require faster attention and mark them as **Priority** in the Inbox.
 
-This helps staff quickly identify conversations that may need prompt action, such as time-sensitive booking requests or urgent questions.
+This helps staff quickly identify time-sensitive conversations, such as booking requests or urgent questions.
 
 <figure><img src="../.gitbook/assets/image (891).png" alt=""><figcaption></figcaption></figure>
 
@@ -217,9 +217,9 @@ Available channels may vary depending on the messaging channels connected to you
 
 ### ⑧ Medical Disclaimer
 
-If needed, you can display a medical disclaimer together with AI-generated responses.
+If needed, you can append a medical disclaimer to AI-generated responses.
 
-When enabled, the configured disclaimer is included in AI conversations to clarify that AI provides general information and that diagnosis or personalized medical advice may require review by a medical professional.
+When enabled, the configured disclaimer is added to AI-generated responses to clarify that AI provides general information and that diagnosis or personalized medical advice may require review by a medical professional.
 
 * Customize the wording to match your clinic's policies.
 * Click **\[Save]** after making changes.
@@ -234,7 +234,7 @@ Register API keys required to use external AI services.
 
 1. Obtain an **API key** from the AI service you want to use.
 2. Enter the issued API key and click **\[Save]**.
-3. Once saved, **API Key Saved** appears for the corresponding AI service.
+3. Once saved, **API key is saved** appears for the corresponding AI service.
 
 * API keys are securely encrypted when stored, and the full key is no longer displayed after saving.
 
@@ -260,7 +260,7 @@ AI generates an answer using the information stored in the Knowledge Base.
 
 #### ② Review the Answer
 
-Check whether the generated response matches the actual information provided by your clinic.
+Review the generated response and check that it is accurate, complete, and consistent with the information provided by your clinic.
 
 We recommend testing frequently asked topics such as **business hours, location, services, pricing, and treatment information** to verify response accuracy and quality.
 
@@ -287,7 +287,7 @@ Previous test conversations remain available in the list so you can review them 
 
 Use **System Status** to check AI service connections and the processing status of your Knowledge Base.
 
-Click **\[Check All]** to check the connection status of all registered AI services at once.
+Click **\[Check All]** to check the connection status of all AI services at once. You can also use **\[Check]** to verify an individual service.
 
 <figure><img src="../.gitbook/assets/image (898).png" alt=""><figcaption></figcaption></figure>
 
@@ -309,23 +309,19 @@ The **Vector Database & Embedding** section shows the current processing status 
 
 * **Total Documents:** Total number of documents registered in the Knowledge Base
 * **Embedding Complete:** Number of documents processed and ready for AI search
-* **Vector Dimensions:** Internal vector information used by AI when searching Knowledge Base content
-* **Tokens Used:** Number of tokens used while processing Knowledge Base content
 * **Last Indexed:** The most recent time the Knowledge Base was processed
 
 ***
 
 ## 💡 Notes
 
-* Always click **\[Save]** after changing settings.
-* When using Auto Response for the first time, begin with **Send After Approval** and review actual AI responses before switching to **Auto Reply**.
-* Before enabling Auto Response, make sure your **Knowledge Base contains enough accurate clinic information** for AI to answer patient questions.
-* For medical questions or situations where AI may not have enough confidence to respond safely, use **Agent Handoff Conditions** so that a staff member can take over.
+* When a **\[Save]** button is shown, click it after making changes.
+* When using Auto Response for the first time, start with **Approve & Send** and review AI responses before switching to **Auto Reply**.
 
 ## ❓ Frequently Asked Questions
 
 **Q. AI is not giving the answer I expected.**\
-A. Update or add the relevant information in the Knowledge Base, then test the question again in **Chat Preview**.
+A. Review and update the relevant information in the **Knowledge Base**, then test the question again in **Chat Preview**.
 
 **Q. I changed the AI model, but the change was not applied.**\
 A. Make sure you clicked **\[Save]** after changing the model.
