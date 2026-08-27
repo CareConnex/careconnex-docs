@@ -37,64 +37,68 @@ Use the bottom navigation menu to access the following:
 
 ## Make a Reservation
 
-Go to **Reservations > My Reservations** to request a new appointment.
+Go to **Reservation > My Reservation** to request a new appointment.
 
-To make a reservation through the app, the patient must have an **available ticket**. Select the preferred date on the calendar, then tap **Make a Reservation** to begin.
+You must have an **available ticket** to make a reservation through the app.
 
 This guide explains the reservation flow using the **Make a Reservation** button.
 
-> 💡 **Another way to start a reservation**
->
-> Patients can also tap the **Add Reservation icon** in the upper-right corner and select an available ticket first.
->
-> After selecting a ticket, the remaining steps are the same: **select a date and time → choose a doctor → review the appointment details → submit the reservation request**.
+**① Tap Make a Reservation at the bottom of the screen.**
 
-> 📷 **Image — My Reservations / Make a Reservation**
+📷 **Image — My Reservation / Make a Reservation**
+
+> 💡 **Another way to start a reservation**\
+> You can also tap the **Add Reservation** icon in the upper-right corner of the My Reservation screen. Both options follow the same reservation process.
 
 #### Select a Ticket and Appointment Time
 
-① Select the ticket you want to use for the appointment.
+**② Select the clinic where you want to make the appointment.**
 
-② Review the selected ticket, choose an available option if needed, and tap **Next**.
+**③ Select the ticket you want to use for the appointment.**
 
-③ Select your preferred **date and time**, then tap **Next**.
+**④ Review the selected ticket, choose an available option if needed, and tap Next.**
 
-> 📷 **Images — Ticket selection / Ticket options / Date and time selection**
+**⑤ Select your preferred date and time, then tap Next.**
+
+📷 **Images — Clinic and ticket selection / Ticket options / Date and time selection**
 
 #### Select a Doctor and Review Appointment Details
 
-④ Select your preferred doctor and tap **Next**.
+**⑥ Select your preferred doctor and tap Next.**
 
-⑤ Review the appointment details, including the date, time, clinic, ticket, and doctor. If everything is correct, tap **Confirm**.
+**⑦ Review the appointment details, including the date, time, clinic, ticket, and doctor. If everything is correct, tap Confirm.**
 
-> 📷 **Images — Doctor selection / Appointment details**
+📷 **Images — Doctor selection / Appointment details**
 
 #### Submit and Check the Appointment Request
 
-⑥ Confirm that the reservation request has been successfully submitted.
+**⑧ When the Reservation Requested screen appears, your reservation request has been successfully submitted.**
 
-⑦ Go to the **Calendar** or **List** view to check the appointment. Until the clinic approves the request, its status will appear as **Pending**.
+The appointment is **not confirmed immediately**. The clinic must review and approve your request before the reservation is confirmed.
+
+You can check the submitted appointment from either the **Calendar** or **List** view in My Reservation. Until the clinic approves the request, its status will appear as **Pending**.
 
 Once the clinic approves the request, the appointment status changes to **Confirmed**.
 
-> 📷 **Images — Reservation request submitted / Pending appointment**
+📷 **Images — Reservation Requested / Pending appointment**
 
-> 💡 Reservation requests made through the Patient App are sent to the clinic's Dr.OZ admin system.\
-> The appointment is **not confirmed immediately**. It becomes confirmed only after the clinic reviews and approves the request.
+> 💡 Reservation requests submitted through the Patient App are sent to the clinic's Dr.OZ admin system for review. The appointment becomes confirmed only after the clinic approves the request.
 
-#### Clinic Review and Approval
+***
+
+### Clinic Review and Approval
 
 When a patient submits a reservation request, it appears under **Schedule > Pending** in the Dr.OZ admin system.
 
 Clinic staff can:
 
-① Click **View** to review the pending reservation request.
+**① Click View to open the pending reservation request.**
 
-② Review the appointment details and click **Confirm** to approve the reservation.
+**② Review the appointment details and click Confirm to approve the reservation.**
 
-Once approved, the appointment is reflected as **Confirmed** in the Patient App.
+Once approved, the appointment is displayed as **Confirmed** in the Patient App.
 
-> 📷 **Image — Dr.OZ Admin / Schedule > Pending**
+📷 **Image — Dr.OZ Admin / Schedule > Pending**
 
 ***
 
@@ -102,7 +106,7 @@ Once approved, the appointment is reflected as **Confirmed** in the Patient App.
 
 Once the clinic approves the reservation request, the appointment status changes to **Confirmed**.
 
-Patients can open a confirmed appointment from either the **Calendar** or **List** view to check its details.
+Open a confirmed appointment from either the **Calendar** or **List** view to check its details.
 
 The **Appointment Details** screen displays information such as:
 
@@ -111,24 +115,24 @@ The **Appointment Details** screen displays information such as:
 * Ticket and service
 * Assigned doctor
 
-Patients can also use the options on this screen to:
+You can also use the options on this screen to:
 
 * Check the clinic's **opening hours**
 * Open the clinic location in **Google Maps**
 * **Call the clinic**
 * Start a **1:1 Inquiry** with the clinic
 
-> 📷 **Images — Confirmed appointment / Appointment Details**
+📷 **Images — Confirmed appointment / Appointment Details**
 
-> 💡 If the patient needs to ask about the appointment or request additional assistance, they can contact the clinic directly through **1:1 Inquiry** from the Appointment Details screen.
+> 💡 If you have questions about your appointment or need additional assistance, use **1:1 Inquiry** from the Appointment Details screen to contact the clinic directly.
 
 ***
 
 ### Change or Cancel an Appointment
 
-A reservation can be changed or cancelled once it has been **Confirmed**.
+You can change or cancel an appointment once it has been **Confirmed**.
 
-Go to **Reservations > List**, select the confirmed appointment, and open the **Appointment Details** screen.
+Go to **Reservation > My Reservation**, open the **List** view, select the confirmed appointment, and open the **Appointment Details** screen.
 
 * **Cancel an appointment:** Tap **Cancel Appointment** at the bottom of the Appointment Details screen.
 * **Change an appointment:** Tap **Change Appointment**, select a new date and time, tap **Next**, choose a doctor, review the updated appointment details, and tap **Confirm**.

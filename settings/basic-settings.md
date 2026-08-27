@@ -107,7 +107,7 @@ The following themes are currently available:
 
 Select your preferred theme to apply it to the admin dashboard.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

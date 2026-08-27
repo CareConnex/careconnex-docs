@@ -64,10 +64,6 @@
 * [Patient App](mobile-app/patient-app.md)
 * [Admin App (Coming Soon)](mobile-app/admin-app-coming-soon.md)
 
-## 📢 Release Notes
-
-* [August 2026 Update](release-notes/august-2026-update.md)
-
 ## 🌐 한국어 가이드
 
 ## 🚀 시작하기
@@ -131,7 +127,3 @@
 
 * [환자용 앱](undefined-9/undefined.md)
 * [관리자용 앱(출시 예정)](undefined-9/undefined-1.md)
-
-## 📢 업데이트 내역
-
-* [2026-08 업데이트](undefined-10/2026-08.md)

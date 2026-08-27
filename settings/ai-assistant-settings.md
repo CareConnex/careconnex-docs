@@ -108,7 +108,7 @@ When a Knowledge Base item with an image is used in an AI response, **the regist
 4. Confirm that the image preview appears correctly.
 5. Click **\[Save]** to apply the changes.
 
-<div><figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (881).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (881).png" alt=""><figcaption></figcaption></figure></div>
 
 > ⚠️ **When adding an image URL**\
 > Select **\[Copy Image Address]**, not **\[Copy Image]**. **Copy Image** copies the image itself, while **Copy Image Address** copies the URL required for the **Image URL** field.
