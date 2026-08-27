@@ -29,7 +29,7 @@ Once Plato Medical is connected to Dr.OZ, you can link Dr.OZ patients with their
 Enter the information required to connect your clinic's Plato Medical account.
 
 * **Database Name**: Enter the database name used by your clinic in Plato.
-* **API Key**: Enter the Bearer API Key generated in Plato.
+* **API Key:** Enter the Bearer API Key generated in Plato. You can generate an API Key from **System Setup > General Settings > API > Generate API Key** in Plato.
 * **Default Calendar ID (Optional):** Enter the default Plato calendar ID, if applicable.
 * **Default Location (Optional):** Enter the default clinic location, if applicable.
 * **Default Doctor Code (Optional):** Enter the default doctor code, if applicable.

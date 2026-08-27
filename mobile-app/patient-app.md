@@ -19,19 +19,19 @@ description: >-
 
 ## App Home Screen
 
-After signing in to the Patient App, patients can view **promotions and recommended services** from the currently selected clinic.
+After signing in to the Dr.OZ Patient App, you can view **promotions and recommended services** from your selected clinic.
 
-At the top of the screen, patients can check or switch the clinic they are currently viewing. The **notification icon** on the right provides access to reservation and reminder notifications.
+At the top of the screen, you can check your currently selected clinic or switch to another clinic. Tap the **notification icon** in the top-right corner to view appointment and reminder notifications.
 
-The bottom navigation menu provides access to the following:
+Use the bottom navigation menu to access the following:
 
-* **Tickets:** View available tickets and usage information.
-* **Reservations:** Check appointment schedules and request a new appointment.
-* **Home:** Browse clinic promotions and recommended services.
-* **Inquiries:** Contact the clinic through 1:1 Inquiry.
-* **My Page:** View account and related information.
+* **Ticket:** View your available tickets and usage details.
+* **Reservation:** View your appointments or request a new appointment.
+* **Home (Dr.OZ logo):** Browse clinic promotions and recommended services.
+* **Inquiry:** Contact the clinic through 1:1 Inquiry.
+* **My Page:** View your account and related information.
 
-> 📷 **Image — Patient App Home Screen**
+<figure><img src="../.gitbook/assets/image (902).png" alt="" width="188"><figcaption></figcaption></figure>
 
 ***
 
