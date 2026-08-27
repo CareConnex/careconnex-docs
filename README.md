@@ -1,30 +1,100 @@
 ---
-description: Welcome to your team’s developer platform
-layout:
-  width: wide
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: false
-  outline:
-    visible: false
-  pagination:
-    visible: false
-  metadata:
-    visible: true
-  tags:
-    visible: true
-  actions:
-    visible: true
+description: >-
+  Get familiar with the essential setup and workflow before you start using
+  Dr.OZ.
 ---
 
-# Developer Platform
+# Getting Started with Dr.OZ
 
-<h2 align="center">Dr.OZ User Guide</h2>
+## Getting Started with Dr.OZ
 
-<p align="center">Everything you need to get started with Dr.OZ.<br>Choose your preferred language to explore the guides.</p>
+> Set up the essentials first, then follow the typical Dr.OZ workflow to manage patient inquiries, appointments, treatments, and payments.
 
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td>🌐 <strong>English Guide</strong></td><td><a href="https://app.gitbook.com/s/bQTCYuRXYU3K1UkronJM/getting-started/getting-started-with-dr.oz">Getting Started with Dr.OZ</a></td><td></td><td></td></tr><tr><td><p>🇰🇷 <strong>한국어 가이드</strong></p><p>Dr.OZ 사용 방법을 한국어로 확인하세요.</p></td><td><a href="https://app.gitbook.com/s/bQTCYuRXYU3K1UkronJM/undefined-1/dr.oz">Dr.OZ 시작하기</a></td><td></td><td></td></tr></tbody></table>
+### 📌 What can you do with Dr.OZ?
 
+<table><thead><tr><th width="269">Feature</th><th>What you can do</th></tr></thead><tbody><tr><td>📅 <strong>Appointment Management</strong></td><td>Create, update, and manage patient appointments</td></tr><tr><td>👤 <strong>Patient Management</strong></td><td>Manage patient profiles and treatment history</td></tr><tr><td>💬 <strong>Consultation Management</strong></td><td>Manage patient inquiries and conversations from the Inbox</td></tr><tr><td>🎟️ <strong>Ticket Management</strong></td><td>Manage treatment packages and session-based tickets</td></tr><tr><td>🔔 <strong>Reminders</strong></td><td>Automatically send appointment and follow-up reminders</td></tr><tr><td>💳 <strong>Billing</strong></td><td>Manage payments, invoices, and payment records</td></tr><tr><td>🤖 <strong>AI Assistant</strong></td><td>Get AI-powered reply suggestions and translations</td></tr></tbody></table>
+
+***
+
+### 📌 Initial Setup
+
+Before using Dr.OZ, complete the basic setup for your clinic.
+
+We recommend following the order below so your team can start managing patients and appointments smoothly.
+
+#### 📋 Recommended Setup Order
+
+**1️⃣ Set Up Clinic Information**
+
+↓
+
+**2️⃣ Add Members**
+
+↓
+
+**3️⃣ Add Services**
+
+↓
+
+**4️⃣ Add Patients**
+
+↓
+
+**5️⃣ Configure Reminders (Optional)**
+
+↓
+
+**6️⃣ Configure AI & Inbox Settings (Optional)**
+
+↓
+
+**7️⃣ Add Promotions (Optional)**
+
+***
+
+### 🎯 Typical Workflow
+
+Once the initial setup is complete, a typical workflow in Dr.OZ looks like this:
+
+**Receive & Respond to an Inbox Inquiry**
+
+↓
+
+**Register or Link the Patient**
+
+↓
+
+**Create an Appointment**
+
+↓
+
+**Manage the Consultation & Reminders**
+
+↓
+
+**Create or Use Treatment Tickets**
+
+↓
+
+**Process Payment**
+
+↓
+
+**Follow Up with the Patient**
+
+***
+
+### 📌 Before You Start
+
+Have the following information ready before setting up your clinic:
+
+* ✓ Clinic information
+* ✓ Business hours
+* ✓ Service list
+* ✓ Staff names and email addresses
+* ✓ Patient information
+* ✓ Clinic logo (Optional)
+
+***
+
+✅ For detailed instructions, see the **Clinic Information Setup** guide.
