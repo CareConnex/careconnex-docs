@@ -45,7 +45,7 @@ This guide explains the reservation flow using the **Make a Reservation** button
 
 **① Tap Make a Reservation at the bottom of the screen.**
 
-📷 **Image — My Reservation / Make a Reservation**
+<figure><img src="../.gitbook/assets/image (904).png" alt="" width="375"><figcaption></figcaption></figure>
 
 > 💡 **Another way to start a reservation**\
 > You can also tap the **Add Reservation** icon in the upper-right corner of the My Reservation screen. Both options follow the same reservation process.
@@ -60,7 +60,9 @@ This guide explains the reservation flow using the **Make a Reservation** button
 
 **⑤ Select your preferred date and time, then tap Next.**
 
-📷 **Images — Clinic and ticket selection / Ticket options / Date and time selection**
+<div><figure><img src="../.gitbook/assets/image (907).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (908).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/5. 날짜 및 시간 선택 (1).jpg" alt="" width="375"><figcaption></figcaption></figure></div>
+
+
 
 #### Select a Doctor and Review Appointment Details
 
