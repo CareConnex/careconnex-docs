@@ -70,7 +70,7 @@ This guide explains the reservation flow using the **Make a Reservation** button
 
 **⑦ Review the appointment details, including the date, time, clinic, ticket, and doctor. If everything is correct, tap Confirm.**
 
-📷 **Images — Doctor selection / Appointment details**
+<figure><img src="../.gitbook/assets/image (913).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Submit and Check the Appointment Request
 
